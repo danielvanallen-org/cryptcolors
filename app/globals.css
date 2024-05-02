@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+    @apply bg-emerald-100;
+    @apply m-auto flex-col max-w-4xl py-8 px-20;
+}
+
+body {
+  @apply bg-emerald-800;
+  main {
+    @apply text-gray-900 bg-emerald-50;
+    @apply m-auto flex-col max-w-4xl py-4 px-20;
+    a {
+      @apply text-link visited:text-link-visited underline;
+    }
+    h1 {
+      @apply mb-2;
+    }
+    ul {
+      @apply pb-3;
+    }
+    ol {
+      @apply pb-3;
+      li {
+        @apply ml-6;
+      }
+    }
+    li {
+      @apply ml-5;
+    }
+    p {
+      @apply pb-3;
+    }
+  }
+}
+
+@layer base {
+  h1 {
+    @apply text-2xl font-semibold;
+  }
+  h2 {
+    @apply text-xl font-semibold mt-4 mb-2;
+  }
+  h3 {
+    @apply text-lg font-semibold;
+  }
+}
