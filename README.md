@@ -16,3 +16,7 @@ This site is heavily inspired by the blog post at [https://maths.straylight.co.u
 
 
 A devcontainer configuration is provided for VS Code development.
+
+# Attribution
+
+This page uses [Mixbox](https://github.com/scrtwpns/mixbox) by Secret Weapons, which is licensed under [CC BY-NC 4.0](https://www.creativecommons.org/licenses/by-nc/4.0/deed.en).  See LICENSE file.
